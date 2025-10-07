@@ -1,0 +1,100 @@
+ 2016  yolo task=segment mode=train model=yolov8s-seg.pt data=dataset_seg.yaml imgsz=1536 batch=8 epochs=500 patience=50 cos_lr=True hsv_h=0.0 hsv_s=0.1 hsv_v=0.1 degrees=2 translate=0.05 scale=0.1 shear=0.0 device=0
+ 2017  yolo task=segment mode=train model=yolov8s-seg.pt data=dataset_seg.yaml imgsz=1536 batch=6 epochs=500 patience=50 cos_lr=True hsv_h=0.0 hsv_s=0.1 hsv_v=0.1 degrees=2 translate=0.05 scale=0.1 shear=0.0 device=0
+ 2018  yolo task=segment mode=train model=yolov8s-seg.pt data=dataset_seg.yaml imgsz=1280 batch=6 epochs=500 patience=50 cos_lr=True hsv_h=0.0 hsv_s=0.1 hsv_v=0.1 degrees=2 translate=0.05 scale=0.1 shear=0.0 device=0
+ 2019  yolo task=segment mode=train model=yolov8s-seg.pt data=dataset_seg.yaml imgsz=1280 batch=4 epochs=500 patience=50 cos_lr=True hsv_h=0.0 hsv_s=0.1 hsv_v=0.1 degrees=2 translate=0.05 scale=0.1 shear=0.0 device=0
+ 
+ 
+python3 train_easyocr.py --dataset_root /media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/ --workdir /media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/easyocr_train_work/ --rec_name passport_ru_g2 --epochs 15 --batch_size 192 --val_split 0.1 --imgH 32 --imgW 160 --workers 0
+
+
+=======================================================================================================
+python3 train_easyocr.py \
+  --dataset_root dataset_for_easyocr/ \
+  --workdir easyocr_train_work/ \
+  --rec_name passport_ru_g2 \
+  --epochs 600 \                # дольше учим (15 → 60)
+  --batch_size 512 \           # большой батч, если память позволяет (A100 40/80ГБ потянет; если OOM — снизь до 256)
+  --val_split 0.1 \
+  --imgH 32 \
+  --imgW 192 \                 # шире поле = лучше длинные слова/ФИО
+  --batch_max_length 32 \      # увеличим максимум длины текста
+  --Transformation TPS \       # Spatial Transformer (исправляет наклоны)
+  --FeatureExtraction ResNet \ # мощный backbone
+  --SequenceModeling BiLSTM \  # даём рекуррентку для контекста
+  --Prediction CTC \           # CTC хорошо для паспортов
+  --lr 0.001 \                 # чуть медленнее учим, но стабильнее
+  --adam \                     # Adam обычно даёт лучшее качество
+  --workers 8                  # загрузка данных в параллели
+  
+  
+==================================================================================================================
+export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+
+python3 train_easyocr2.py --dataset_root dataset_for_easyocr_text2/ --workdir easyocr_train_work_text/ --export_dir final_versions/runs/ --rec_name passport_ru_text --epochs 100 --batch_size 512 --val_split 0.1 --imgH 32 --imgW 256 --workers 8 --Transformation TPS --FeatureExtraction ResNet --SequenceModeling BiLSTM --Prediction CTC --batch_max_length 32 --lr 0.0008 --adam --grad_clip 5.0 --valInterval 1
+
+
+python3 train_easyocr2.py --dataset_root dataset_for_easyocr_text2/ --workdir easyocr_train_work_text/ --export_dir final_versions/runs/ --rec_name passport_ru_text --epochs 100 --batch_size 650 --val_split 0.1 --imgH 64 --imgW 288 --workers 16 --Transformation TPS --FeatureExtraction ResNet --SequenceModeling BiLSTM --Prediction CTC --batch_max_length 48 --lr 0.0008 --adam --grad_clip 5.0 --valInterval 1 --saved_model /workspace/final_version/easyocr_train_work_text/deep-text-recognition-benchmark/saved_models/passport_ru_text_20250920_211540/best_accuracy.pth --FT 
+  
+  
+  
+python3 train_easyocr2.py --dataset_root dataset_for_easyocr_text2/ --workdir easyocr_train_work_text_ft/ --export_dir final_versions/runs/ --rec_name passport_ru_text_ft --epochs 40 --batch_size 600 --val_split 0.1 --imgH 64 --imgW 320 --workers 8 --Transformation TPS --FeatureExtraction ResNet --SequenceModeling BiLSTM --Prediction CTC --batch_max_length 64 --adam --lr 0.0002 --grad_clip 5.0 --valInterval 1000 --saved_model /workspace/final_version/easyocr_train_work_text/deep-text-recognition-benchmark/saved_models/passport_ru_text_20250920_211540/best_accuracy.pth --FT
+ ===================================================================================================================
+python3 train_easyocr2.py --dataset_root dataset_for_easyocr_digits/ --workdir easyocr_train_work_digits/ --export_dir final_versions/runs/ --rec_name passport_ru_digits --epochs 100 --batch_size 512 --val_split 0.1 --imgH 32 --imgW 192 --workers 8 --Transformation TPS --FeatureExtraction ResNet --SequenceModeling BiLSTM --Prediction CTC --batch_max_length 20 --lr 0.001 --adam --grad_clip 5.0 --valInterval 1 --character "-0123456789. " --grad_clip 5.0
+  
+  
+  
+python3 train_easyocr2.py --dataset_root dataset_for_easyocr_digits/ --workdir easyocr_train_work_digits_ft/ --export_dir final_versions/runs/ --rec_name passport_ru_digits --epochs 60 --batch_size 850 --val_split 0.1 --imgH 48 --imgW 192 --workers 8 --Transformation TPS --FeatureExtraction ResNet --SequenceModeling BiLSTM --Prediction CTC --batch_max_length 20 --lr 0.0005 --adam --grad_clip 5.0 --valInterval 1000 --character "-0123456789. " --saved_model easyocr_train_work_digits/deep-text-recognition-benchmark/saved_models/passport_ru_digits_20250920_083626/best_accuracy.pth --FT 
+  
+
+
+
+==================================================================================================================================================================================================
+yolo task=segment mode=train model=yolov8l-seg.pt data=dataset_seg.yaml imgsz=1536 batch=24 epochs=400 patience=50 device=0 workers=16 cache=ram optimizer=AdamW lr0=0.001 lrf=0.01 weight_decay=0.0005 warmup_epochs=3 warmup_momentum=0.8 warmup_bias_lr=0.05 cos_lr=True degrees=2 translate=0.05 scale=0.10 shear=0.0 perspective=0.0005 hsv_h=0.0 hsv_s=0.10 hsv_v=0.10 mosaic=0.05 mixup=0.0 copy_paste=0.15 close_mosaic=20 flipud=0.0 fliplr=0.0 multi_scale=False seed=42 save_period=25 amp=True
+
+
+
+
+===================================================================================================================================================================================================
+yolo task=segment mode=train model=yolov8x-seg.pt data=dataset_seg.yaml imgsz=1536 batch=17 epochs=400 patience=50 device=0 workers=0 optimizer=AdamW lr0=0.001 lrf=0.01 weight_decay=0.0005 warmup_epochs=3 warmup_momentum=0.8 warmup_bias_lr=0.05 cos_lr=True degrees=2 translate=0.05 scale=0.10 shear=0.0 perspective=0.0005 hsv_h=0.0 hsv_s=0.10 hsv_v=0.10 mosaic=0.05 mixup=0.0 copy_paste=0.15 close_mosaic=20 flipud=0.0 fliplr=0.0  multi_scale=False seed=42 save_period=25 amp=True 
+
+
+
+Validating /workspace/runs/segment/train11/weights/best.pt...
+Ultralytics 8.3.199 🚀 Python-3.12.11 torch-2.8.0+cu128 CUDA:0 (NVIDIA A100 80GB PCIe, 81156MiB)
+YOLOv8x-seg summary (fused): 125 layers, 71,735,101 parameters, 0 gradients, 328.0 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95)     Mask(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 1/1 0.9it/s 1.2s
+                   all         25        397      0.983      0.999      0.995      0.802      0.922      0.927      0.923      0.713
+            birth_date         25         25       0.98          1      0.995      0.766      0.954       0.96       0.97      0.736
+           birth_place         25         25      0.978          1      0.995      0.792      0.993          1      0.995      0.762
+                   fam         25         25      0.981          1      0.995      0.782      0.955       0.96      0.967      0.692
+            issue_date         25         25      0.979          1      0.995      0.832      0.993          1      0.995      0.751
+             issued_by         25         25       0.98          1      0.995      0.891      0.993          1      0.995      0.861
+           issued_code         25         25      0.979          1      0.995      0.732      0.993          1      0.995      0.674
+                   mrz         25         25       0.98          1      0.995       0.77      0.994          1      0.995      0.817
+                  name         25         25       0.98          1      0.995      0.831      0.994          1      0.995      0.739
+                 page1         25         25          1          1      0.995      0.917          1          1      0.995      0.851
+                 page2         25         25      0.981          1      0.995      0.932      0.997          1      0.995       0.69
+              passport         23         23          1      0.984      0.995      0.489          0          0          0          0
+                 photo         25         25      0.979          1      0.995      0.927      0.991          1      0.995      0.944
+         series_number         25         50      0.986          1      0.995      0.789      0.975       0.98      0.969      0.706
+               sername         25         25       0.98          1      0.995      0.799      0.994          1      0.995      0.737
+                   sex         24         24      0.982          1      0.995      0.776      0.998          1      0.995       0.73
+Speed: 0.4ms preprocess, 23.6ms inference, 0.0ms loss, 0.7ms postprocess per image
+Results saved to /workspace/runs/segment/train11
+💡 Learn more at https://docs.ultralytics.com/modes/train
+
+===================================================================================================================================================================================================
+*** LINUX ***
+Once installation is complete, you can log in using SSH. (default port 22)
+ssh 151.236.16.247 -l root
+
+Linux:          root
+Password:       T3bzDbqKQvWI
+
+
+
+
+python3 main.py ../passport_bad.jpg --imgsz 1536 --conf 0.25  --iou 0.6-device 0
+
+
+python3 main.py --service --imgsz 1536 --conf 0.25 --iou 0.6 --dataset_root /workspace/final_version/dataset_for_easyocr 

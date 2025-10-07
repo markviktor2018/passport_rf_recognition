@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<title>Passport OCR — Web Demo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  :root {
+    --bg: #0f1115;
+    --panel: #161a22;
+    --panel2:#0f131a;
+    --text:#e5e7eb;
+    --muted:#9aa4b2;
+    --accent:#60a5fa;
+    --ok:#22c55e;
+    --err:#ef4444;
+    --warn:#f59e0b;
+    --border:#202532;
+  }
+  html,body{margin:0;height:100%;background:var(--bg);color:var(--text);font:14px/1.45 system-ui, -apple-system, Segoe UI, Roboto, Arial}
+  .wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:16px;max-width:1200px;margin:24px auto;padding:0 16px}
+  header{max-width:1200px;margin:16px auto 0;padding:0 16px}
+  h1{font-size:20px;margin:8px 0}
+  .card{background:var(--panel);border:1px solid var(--border);border-radius:12px;overflow:hidden}
+  .card .hd{padding:12px 14px;border-bottom:1px solid var(--border);font-weight:600}
+  .card .bd{padding:14px}
+  .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+  label.small{font-size:12px;color:var(--muted)}
+  input[type="text"]{background:var(--panel2);border:1px solid var(--border);border-radius:8px;color:var(--text);padding:8px 10px;min-width:260px}
+  input[type="file"]{display:none}
+  .btn{background:var(--accent);color:#041226;border:0;border-radius:10px;padding:10px 14px;font-weight:600;cursor:pointer}
+  .btn:disabled{opacity:.6;cursor:not-allowed}
+  .muted{color:var(--muted)}
+  .pill{display:inline-block;padding:2px 8px;border-radius:999px;border:1px solid var(--border);background:var(--panel2);color:var(--muted)}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .drop{background:var(--panel2);border:2px dashed var(--border);border-radius:12px;min-height:160px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:8px;text-align:center;padding:16px}
+  .drop.drag{border-color:var(--accent);background:#0d1624}
+  .thumb{width:100%;max-height:280px;object-fit:contain;background:#0b0e14;border:1px solid var(--border);border-radius:8px;cursor:zoom-in}
+  .kv{display:grid;grid-template-columns:160px 1fr;gap:8px 12px}
+  .kv .k{color:var(--muted)}
+  .tbl{width:100%;border-collapse:collapse}
+  .tbl th,.tbl td{border-bottom:1px dashed var(--border);padding:7px 6px;vertical-align:top}
+  .tbl th{color:var(--muted);text-align:left;font-weight:600;width:180px}
+  .code{white-space:pre-wrap;background:var(--panel2);border:1px solid var(--border);border-radius:8px;padding:10px;font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;font-size:12px;color:#cbd5e1;max-height:260px;overflow:auto}
+  .right .imgbox{display:grid;grid-template-columns:1fr;gap:12px}
+  .openlink{display:inline-block;margin-left:8px;font-size:12px;color:var(--accent);text-decoration:none}
+  .bad{color:var(--err)} .ok{color:var(--ok)}
+  footer{max-width:1200px;margin:8px auto 24px;padding:0 16px;color:var(--muted);font-size:12px}
+  @media (max-width:980px){.wrap{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Passport OCR — Web Demo</h1>
+  <div class="muted">Загрузите фото паспорта — отправим в API и покажем распознанные поля. Справа — превью повёрнутого и размеченного изображений из системы.</div>
+</header>
+
+<div class="wrap">
+  <!-- ЛЕВАЯ КОЛОНКА -->
+  <section class="card">
+    <div class="hd">Загрузка и отправка</div>
+    <div class="bd">
+      <div class="kv" style="margin-bottom:10px">
+        <div class="k">API URL</div>
+        <div><input id="api_url" type="text" value="http://localhost:8085/v1/process"></div>
+        <div class="k">X-API-Key</div>
+        <div><input id="api_key" type="text" placeholder="(опционально)"></div>
+      </div>
+
+      <div id="drop" class="drop">
+        <div><strong>Перетащите</strong> тут файл паспорта (JPEG/PNG) или используйте кнопку ниже.</div>
+        <div class="muted">Размер разумный: до ~15 МБ</div>
+        <div>
+          <label class="btn">
+            Выбрать файл
+            <input type="file" id="file" accept="image/*">
+          </label>
+          <span id="file_name" class="pill"></span>
+        </div>
+      </div>
+
+      <div class="grid" style="margin-top:14px">
+        <div>
+          <img id="preview_img" class="thumb" alt="превью" title="клик — открыть в новой вкладке" style="display:none" />
+          <div id="preview_hint" class="muted" style="margin-top:6px;display:none">Клик по картинке — открыть полноразмерно.</div>
+        </div>
+        <div>
+          <div class="row" style="margin-bottom:10px">
+            <button id="send" class="btn" disabled>Отправить в API</button>
+            <span id="status" class="pill">ожидает файл…</span>
+          </div>
+          <div class="code" id="log"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ПРАВАЯ КОЛОНКА -->
+  <section class="card right">
+    <div class="hd">Результат: изображения из системы</div>
+    <div class="bd">
+      <div class="imgbox">
+        <div>
+          <div class="muted" style="margin-bottom:6px">
+            Размеченная версия (annotated)
+            <a id="ann_open" class="openlink" href="#" target="_blank" rel="noopener" style="display:none">Открыть в новой вкладке</a>
+          </div>
+          <img id="ann_img" class="thumb" alt="annotated" style="display:none" />
+        </div>
+        <div>
+          <div class="muted" style="margin-bottom:6px">
+            Повернутая финальная (final)
+            <a id="final_open" class="openlink" href="#" target="_blank" rel="noopener" style="display:none">Открыть в новой вкладке</a>
+          </div>
+          <img id="final_img" class="thumb" alt="final" style="display:none" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- НИЖНИЙ БЛОК: ПОЛЯ -->
+  <section class="card" style="grid-column:1/-1">
+    <div class="hd">Распознанные поля</div>
+    <div class="bd">
+      <table class="tbl" id="fields_tbl">
+        <thead>
+          <tr><th>Поле</th><th>Значение</th><th>Уверенность</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- НИЖНИЙ БЛОК (опц.): сырой ответ -->
+  <section class="card" style="grid-column:1/-1">
+    <div class="hd">Сырой ответ API</div>
+    <div class="bd">
+      <pre class="code" id="raw_json">—</pre>
+    </div>
+  </section>
+</div>
+
+<footer>Если API отдаёт картинки и как base64 (annotated_b64/final_b64) — мы их показываем. Если только пути — потребуется свой статики-сервер.</footer>
+
+<script>
+const $ = sel => document.querySelector(sel);
+
+const els = {
+  api:   $('#api_url'),
+  key:   $('#api_key'),
+  file:  $('#file'),
+  drop:  $('#drop'),
+  name:  $('#file_name'),
+  send:  $('#send'),
+  stat:  $('#status'),
+  log:   $('#log'),
+  prev:  $('#preview_img'),
+  prevHint: $('#preview_hint'),
+  fieldsTbody: document.querySelector('#fields_tbl tbody'),
+  raw:   $('#raw_json'),
+  annImg: $('#ann_img'),
+  annOpen: $('#ann_open'),
+  finalImg: $('#final_img'),
+  finalOpen: $('#final_open'),
+};
+
+let fileBlob = null;
+let fileDataURL = null; // для открытия в новой вкладке исходника
+
+function setStatus(txt, cls='') {
+  els.stat.textContent = txt;
+  els.stat.className = 'pill ' + cls;
+}
+
+function log(msg) {
+  const t = new Date().toLocaleTimeString();
+  els.log.textContent += `[${t}] ${msg}\n`;
+  els.log.scrollTop = els.log.scrollHeight;
+}
+
+function resetImages() {
+  [els.annImg, els.finalImg].forEach(im=>{
+    im.style.display = 'none';
+    im.src = '';
+  });
+  [els.annOpen, els.finalOpen].forEach(a=>{
+    a.style.display = 'none';
+    a.href = '#';
+  });
+}
+
+function setThumb(imgEl, aEl, b64) {
+  const url = `data:image/jpeg;base64,${b64}`;
+  imgEl.src = url;
+  imgEl.style.display = 'block';
+  aEl.href = url;
+  aEl.style.display = 'inline-block';
+  imgEl.onclick = () => window.open(url, '_blank', 'noopener');
+}
+
+function fillFields(fields) {
+  const tbody = els.fieldsTbody;
+  tbody.innerHTML = '';
+  if (!fields || typeof fields !== 'object') return;
+
+  const order = [
+    'fam','name','sername','sex','birth_date','birth_place',
+    'series_number','issued_code','issued_by','issue_date','mrz'
+  ];
+  const keys = Object.keys(fields);
+  keys.sort((a,b)=>{
+    const ia = order.indexOf(a), ib = order.indexOf(b);
+    if (ia<0 && ib<0) return a.localeCompare(b);
+    if (ia<0) return 1;
+    if (ib<0) return -1;
+    return ia-ib;
+  });
+
+  for (const k of keys) {
+    const v = fields[k] || {};
+    const tr = document.createElement('tr');
+    const tdK = document.createElement('td');
+    const tdV = document.createElement('td');
+    const tdC = document.createElement('td');
+    tdK.textContent = k;
+    tdV.textContent = v.value ?? '';
+    let c = v.confidence;
+    if (typeof c === 'number') {
+      if (c<=1) c = (c*100);
+      c = Math.round(c*10)/10;
+      tdC.innerHTML = `<span class="${c>=80?'ok':(c<50?'bad':'')}">${c}%</span>`;
+    } else {
+      tdC.innerHTML = `<span class="muted">—</span>`;
+    }
+    tr.append(tdK, tdV, tdC);
+    tbody.appendChild(tr);
+  }
+}
+
+function fileToDataURL(file) {
+  return new Promise((resolve,reject)=>{
+    const fr = new FileReader();
+    fr.onload = () => resolve(fr.result);
+    fr.onerror = reject;
+    fr.readAsDataURL(file);
+  });
+}
+
+function dataURLtoBase64(dataURL) {
+  const i = dataURL.indexOf(',');
+  return i>=0 ? dataURL.slice(i+1) : dataURL;
+}
+
+async function handleFile(f) {
+  if (!f) return;
+  fileBlob = f;
+  els.name.textContent = `${f.name} • ${(f.size/1024/1024).toFixed(2)} МБ`;
+  setStatus('файл выбран', '');
+  els.send.disabled = false;
+  // превью
+  fileDataURL = await fileToDataURL(f);
+  els.prev.src = fileDataURL;
+  els.prev.style.display = 'block';
+  els.prevHint.style.display = 'block';
+  els.prev.onclick = ()=> window.open(fileDataURL, '_blank', 'noopener'); // открыть оригинал
+  resetImages();
+}
+
+els.file.addEventListener('change', e => handleFile(e.target.files?.[0]));
+
+['dragenter','dragover'].forEach(ev=>{
+  els.drop.addEventListener(ev, e=>{
+    e.preventDefault(); e.stopPropagation();
+    els.drop.classList.add('drag');
+  });
+});
+['dragleave','drop'].forEach(ev=>{
+  els.drop.addEventListener(ev, e=>{
+    e.preventDefault(); e.stopPropagation();
+    if (ev==='drop') {
+      const f = e.dataTransfer.files?.[0];
+      if (f) handleFile(f);
+    }
+    els.drop.classList.remove('drag');
+  });
+});
+
+els.send.addEventListener('click', async ()=>{
+  if (!fileBlob) return;
+  resetImages();
+  setStatus('отправляем…','');
+  els.send.disabled = true;
+  log('Готовим base64…');
+  const dataURL = fileDataURL || await fileToDataURL(fileBlob);
+  const b64 = dataURLtoBase64(dataURL);
+
+  const url = els.api.value.trim();
+  const key = els.key.value.trim();
+
+  const payload = { image_b64: b64, meta: { client: 'webdemo' } };
+
+  try {
+    log(`POST ${url}`);
+    const res = await fetch(url, {
+      method: 'POST',
+      headers: {
+        'Content-Type':'application/json',
+        ...(key ? {'X-API-Key': key} : {})
+      },
+      body: JSON.stringify(payload)
+    });
+    const json = await res.json();
+    els.raw.textContent = JSON.stringify(json, null, 2);
+
+    if (!res.ok) {
+      setStatus(`HTTP ${res.status}`,'bad');
+      log(`Ошибка HTTP ${res.status}`);
+      els.send.disabled = false;
+      return;
+    }
+
+    if (json.status === 'timeout') {
+      setStatus('timeout', 'bad');
+      log('Ответ не пришёл в течение таймаута.');
+      els.send.disabled = false;
+      return;
+    }
+
+    if (json.status !== 'ok') {
+      setStatus('error', 'bad');
+      log('API вернуло ошибку: ' + (json.detail || ''));
+      els.send.disabled = false;
+      return;
+    }
+
+    const result = json.result || {};
+    const fields = (result.result?.fields) || (result.fields) || {};
+    const images = (result.result?.images) || (result.images) || {};
+
+    // Таблица полей
+    fillFields(fields);
+
+    // Картинки
+    const ann_b64 = images.annotated_b64 || null;
+    const fin_b64 = images.final_b64 || null;
+
+    if (ann_b64) setThumb(els.annImg, els.annOpen, ann_b64);
+    if (fin_b64) setThumb(els.finalImg, els.finalOpen, fin_b64);
+
+    if (!ann_b64 && !fin_b64) {
+      log('В ответе нет изображений annotated_b64/final_b64. Проверьте, что сервис их возвращает.');
+    }
+
+    setStatus('готово','ok');
+    log('Готово.');
+  } catch (e) {
+    console.error(e);
+    setStatus('ошибка сети','bad');
+    log('Ошибка сети / CORS / API недоступно.');
+  } finally {
+    els.send.disabled = false;
+  }
+});
+</script>
+</body>
+</html>
+

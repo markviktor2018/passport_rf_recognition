@@ -1,0 +1,4 @@
+pytorch_model.bin
+helper_files/easyocr_models/model/craft_mlt_25k.pth
+helper_files/easyocr_models/user_network/passport_ru_g2.pth
+easyocr_train_work/lmdb/training/data.mdb

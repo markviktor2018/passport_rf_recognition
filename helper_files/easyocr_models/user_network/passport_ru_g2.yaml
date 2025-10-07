@@ -1,0 +1,7 @@
+character_list: "0123456789ABCIKMNORSUadefhnoprstuxyzАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯЁабвгдежзийклмнопрстуфхчшыьэюя -.:/()"
+imgH: 32
+imgW: 160
+batch_max_length: 25
+prediction: CTC
+model_backbone: ResNet
+seq_modeling: BiLSTM

@@ -1,0 +1,237 @@
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_date/birth_date_1758051013383_c2c4be61.png	20.02.1988
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/name/name_1758048117283_da1985c8.png	КОНУЛ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sername/sername_1758049618135_55263707.png	ЮРЬЕВИЧ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_date/birth_date_1758049670143_17cc5841.png	10.03.1979
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issue_date/issue_date_1758049539559_cb7353af.png	16.04.2003
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issue_date/issue_date_1758049339581_1a3f5b89.png	17.06.2011
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_code/issued_code_1758049691107_262933e9.png	773-038
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/fam/fam_1758050771345_40817c8e.png	АНДРЕЕВА
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/name/name_1758047509908_75abbb92.png	МИХАИЛ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_place/birth_place_1758048472123_c64295bf.png	ГОР ХАБАРОВСК
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issue_date/issue_date_1758050987791_1fedb6f8.png	13.04.2002
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758050727849_9049d356.png	09 14 219508
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758048849175_6f9e3337.png	53 13 386230
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/fam/fam_1758048054989_a825387d.png	УСАЧЕВА
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issue_date/issue_date_1758048896053_ec8c424d.png	06.12.2006
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_place/birth_place_1758047286687_eb338ebd.png	ГОР. ТАЛДЫ-КУРГАН РЕСПУБЛИКИ КАЗАХСТАН
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_place/birth_place_1758047648583_7412f8fe.png	ГОР НЕРЕХТА КОСТРОМСКАЯ ОБЛ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_by/issued_by_1758050962223_6c937476.png	ОТДЕЛОМ УФМС РОССИИ ПО САХАЛИНСКОЙ ОБЛАСТИ В ГОР. ЮЖНО-САХАЛИНСКЕ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758050737291_bbd09991.png	09 14 219508
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/fam/fam_1758048910792_d6a2a019.png	УЗЛОВСКАЯ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issue_date/issue_date_1758051021987_6feafaa9.png	21.10.2014
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758049222356_7eb333a5.png	25 13 821932
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sex/sex_1758049956822_17263eba.png	МУЖ.
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_place/birth_place_1758048804422_98e93596.png	ГОР ВЕРХОТУРЬЕ СВЕРДЛОВСКОЙ ОБЛ.
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758048639265_ab73b996.png	91 23 268584
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758050024724_3dc758dc.png	17 02 895182
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/fam/fam_1758049819287_a6679929.png	ХУДКОВ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_date/birth_date_1758050094437_c1693714.png	14.06.1990
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sex/sex_1758050782503_f393191d.png	ЖЕН.
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758050651573_11f8a53b.png	72 09 373832
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sex/sex_1758050626865_36eb9adf.png	МУЖ.
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_place/birth_place_1758049549003_80f1b9d8.png	ГОР. МОСКВА
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_date/birth_date_1758048710227_f31dd7c3.png	22.01.1993
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_code/issued_code_1758049939678_4b8a709b.png	360-003
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_place/birth_place_1758048761685_50c1d371.png	Г КУРСК КУРСКОЙ ОБЛ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sex/sex_1758049466250_6a50f784.png	МУЖ.
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758048998870_8f590d81.png	49 06 873345
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_date/birth_date_1758049582255_3dd52503.png	25.08.1995
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issue_date/issue_date_1758049190734_8ea80e70.png	20.11.2003
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_by/issued_by_1758051046778_2e04c24d.png	ОВД РАЙОНА МАРЬИНА РОЩА ГОР. МОСКВЫ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/fam/fam_1758049383900_1843c043.png	КОЛОСОВ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sername/sername_1758049511629_1b469143.png	МЕЖСИСКОВИЧ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issue_date/issue_date_1758049474642_80b1b86c.png	ГОРОДА
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sername/sername_1758047304760_5b58daff.png	ВЛАДИМИРОВИЧ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sex/sex_1758049143141_9117e11f.png	МУЖ.
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/name/name_1758051021941_bafae58d.png	АЛЬБИНА
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_place/birth_place_1758050771269_fa6b96e1.png	С. БИЧУРЧА БАНТЕЕВО ШЕМУРШИНСКОГО Р-НА ЧУВАШСКОЙ АССР
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sex/sex_1758048926999_06e786f9.png	МУЖ.
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sername/sername_1758049427883_37fb82ed.png	НИКОЛАЕВИЧ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sername/sername_1758050322538_9978c476.png	ДМИТРИЕВНА
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_date/birth_date_1758047441385_6683af92.png	13.09.1992
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/name/name_1758050684954_f6abc2df.png	ЛЕОНИД
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sername/sername_1758050808035_c69e3d52.png	АЛЕКСАНДРОВИЧ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/name/name_1758049885287_b7453fa8.png	АМИР
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sername/sername_1758048926344_9af3cbaf.png	ИГОРЕВИЧ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758048999036_a7e0640b.png	49 06 873345
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758049643746_4619dad9.png	71 03 950344
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758051046290_e5f1affc.png	45 07 190244
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_by/issued_by_1758049206838_e74c69af.png	ОТДЕЛЕНИЕМ УФМС РОССИИ ПО СВЕРДЛОВСКОЙ ОБЛАСТИ В ДЗЕРЖИНСКОМ Р-НЕ ГОР. НИЖНЕГО ТАГИЛА
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758050170773_d2314856.png	45 10 200787
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sername/sername_1758047817755_9e4a35a6.png	ИГОРЕВИЧ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sex/sex_1758050298198_76da9b7e.png	ЖЕН.
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sername/sername_1758048120279_07a54476.png	МАЗАХИРКЫЗЫ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/name/name_1758050025052_7575ccee.png	МАО
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_place/birth_place_1758050961771_38eb978c.png	С. ЛУГОВОЕ АНИВСКОГО Р-НА САХАЛИНСКОЙ ОБЛ.
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_place/birth_place_1758049456458_ccf4ca58.png	ГОР. КУЙБЫШЕВ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758049383668_84469444.png	46 12 822880
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/fam/fam_1758049427731_33652058.png	РУЧКИН
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_date/birth_date_1758047304151_d9777844.png	18.01.1995
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/name/name_1758048849630_d575df19.png	АЗАТ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_place/birth_place_1758048999445_eead1898.png	ГОР. ПУШКИНО ЛЕНИНГРАДСКОЙ ОБЛ.
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758050841077_549c3e45.png	83 03 232161
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sername/sername_1758050909061_83b93513.png	ИВАНОВИЧ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issue_date/issue_date_1758050791408_ed3ae44b.png	17.01.2014
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issue_date/issue_date_1758047885682_60a45437.png	17.03.2009
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/fam/fam_1758047648710_25dc5bb1.png	АРСЕНЬЕВ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_date/birth_date_1758048487116_059e5c6d.png	01.09.1983
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758050987408_637dea09.png	15 06 015678
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758049921116_8a92af02.png	41 08 149154
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758047509557_346f003f.png	75 08 342213
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sername/sername_1758048456385_823499c2.png	АНДРЕЕВИЧ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/name/name_1758048487417_48045fbc.png	ЕКАТЕРИНА
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/fam/fam_1758048955770_91fee1cb.png	ШАМЕЕВ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_date/birth_date_1758050322342_22298d07.png	23.04.1992
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/name/name_1758050217413_440b7a94.png	ИВАН
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_by/issued_by_1758050103096_37b1bbec.png	ОТДЕЛЕНИЕМ ПО РАЙОНУ МОЖАЙСКИЙ ОУФМС РОССИИ ПО ГОР. МОСКВЕ В ЗАО
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sername/sername_1758048040746_79983ece.png	ФАНУЭЛОВНА
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_code/issued_code_1758049428603_921c64e1.png	420-050
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issue_date/issue_date_1758048120340_b0c01360.png	10.11.2011
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_code/issued_code_1758049913171_2c28ee13.png	000-000
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_by/issued_by_1758048103270_ab2f89ae.png	АВТОЗАВОДСКИМ РУВД г.ТОЛЬЯТТИ САМАРСКОЙ ОБЛ.
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758049142139_ae1f3302.png	45 15 412256
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758050371626_0f559f5f.png	45 05 111922
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/fam/fam_1758047304470_501f1cc9.png	КУЗЬМЕНКО
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_by/issued_by_1758047750559_00271d85.png	ОТДЕЛОМ УФМС РОССИИ ПО НОВОСИБИРСКОЙ ОБЛАСТИ В КИРОВСКОМ РАЙОНЕ Г.НОВОСИБИРСКА
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_by/issued_by_1758049375575_435f0d22.png	ОУФМС РОССИИ ПО МОСКОВСКОЙ ОБЛ. ПО ЗАРАЙСКОМУ МУНИЦИПАЛЬНОМУ Р-НУ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/name/name_1758051013552_9bd95382.png	СЕРГЕЙ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758049374777_38e65f12.png	46 12 822880
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/fam/fam_1758049375054_4fd1d396.png	Фамилия
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758047922479_eb676005.png	27 03 733673
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/fam/fam_1758047551937_bbc1d4de.png	НЫРКОВ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_date/birth_date_1758048584905_0f7a9060.png	25.04.1981
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issue_date/issue_date_1758049904056_c6891140.png	26.02.2016
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758047493833_7f771f90.png	45 06 940937
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758049617798_2db0e327.png	36 13 738249
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758048021926_bf3bdf0e.png	00 06 163278
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_place/birth_place_1758049158389_5bfe2aab.png	ГОР. МОСКВА
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sername/sername_1758048139868_fe9251b8.png	ИЛЬИНИЧНА
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_by/issued_by_1758047441907_8ec50141.png	ОТДЕЛОМ ВНУТРЕННИХ ДЕЛ ГОР. АРХАНГЕЛЬСКА
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_date/birth_date_1758050073842_6f8b821f.png	02.11.1973
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/name/name_1758048910852_60be1f5a.png	ИРИНА
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_date/birth_date_1758048054569_3d854d4e.png	21.09.1978
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_code/issued_code_1758050589849_56bcb5e9.png	750-011
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sex/sex_1758048354260_0cd6e1d4.png	МУЖ.
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/fam/fam_1758049734799_5129a807.png	ЕЛИСЕЕВ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758049617871_f5f724a2.png	36 13 738249
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sex/sex_1758049618545_ede2c0a8.png	МУЖ.
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issue_date/issue_date_1758050145544_77fba178.png	25.11.2015
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sername/sername_1758047509947_e14849a0.png	АНДРЕЕВИЧ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_place/birth_place_1758050542795_a71aefe2.png	ГОР. ОРЕНБУРГ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758047568844_775413e3.png	07 12 749974
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758047963135_37f8730a.png	52 18 122870
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758047922386_bc9ee34e.png	27 03 733673
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/name/name_1758048926272_a3550838.png	ВЛАДИСЛАВ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_date/birth_date_1758049474338_834998af.png	27.10.1985
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_place/birth_place_1758049238259_ad8681ae.png	ПОС. ОМУТИНСКИЙ ОМУТИНСКОГО Р-НА ТЮМЕНСКОЙ ОБЛ.
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_place/birth_place_1758047569118_16ed1e01.png	Г. ДЖАМБУЛ РЕСП. КАЗАХСТАН
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_date/birth_date_1758048158435_9d5cb016.png	12.12.1942
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758050987497_6046da00.png	15 06 015678
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/name/name_1758047749125_5e5f852b.png	АНАСТАСИЯ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_date/birth_date_1758049875351_6d81732e.png	23.09.1987
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_code/issued_code_1758048456924_50420b19.png	860-004
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sex/sex_1758050074766_4a3aae83.png	ЖЕН.
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758049591436_f4f2abc7.png	70 15 626085
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_place/birth_place_1758048241077_dc3dac0b.png	Г РОСТОВ-НА-ДОНУ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_code/issued_code_1758050996747_69fc9df0.png	500-009
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_by/issued_by_1758049679930_c7bd1f95.png	ОТДЕЛОМ УФМС РОССИИ ПО НОВОСИБИРСКОЙ ОБЛАСТИ В ЖЕЛЕЗНОДОРОЖНОМ РАИОНЕ Г. НОВОСИБИРСКА
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issue_date/issue_date_1758048956010_a6aba91c.png	27.03.2015
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758048605804_53586102.png	70 04 683615
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/fam/fam_1758050560946_f23c6fd5.png	АЛЕКСЕЕВ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sex/sex_1758049530702_a1b07945.png	МУЖ.
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758048486886_a3323e22.png	36 11 480678
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_date/birth_date_1758050694266_3af8d0c6.png	10.10.1966
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758050007793_129bbe9b.png	05 01 470004
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758047941161_f769cf4e.png	27 03 733673
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/name/name_1758050322453_234d401d.png	КСЕНИЯ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758047885105_e32def64.png	45 10 113215
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_by/issued_by_1758047771933_c41a2eef.png	ОТДЕЛОМ УФМС РОССИИ ПО НОВОСИБИРСКОЙ ОБЛАСТИ В КИРОВСКОМ РАЙОНЕ Г.НОВОСИБИРСКА
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/fam/fam_1758047477525_f57f3b84.png	ЗАХАРОВ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/name/name_1758050858556_9b255f3a.png	ВАДИМ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_code/issued_code_1758051013796_56a58199.png	042-012
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_place/birth_place_1758049538922_cd76ec51.png	С. САДОВОЕ САРПИНСКОГО Р-НА РЕСП. КАЛМЫКИЯ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758050188757_5d037b8b.png	11 04 000000
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/name/name_1758051080333_b093648f.png	АРТЕМ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/name/name_1758048761812_cdcf7505.png	СЕРГЕЙ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758049465369_b7dc3c7c.png	36 05 380183
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758049991033_31fc8f1f.png	82 14 577188
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/name/name_1758050643562_4e92fb3c.png	Евгений
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/fam/fam_1758050944495_f6cf4b6e.png	СИЛАНТЬЕВА
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_date/birth_date_1758051021683_0a051458.png	17.03.1997
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758051055002_c3c4d37e.png	58 11 086383
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_by/issued_by_1758050544109_7f359cf2.png	ОТДЕЛОМ УФМС РОССИИ ПО ОРЕНБУРГСКОЙ ОБЛАСТИ В ЛЕНИНСКОМ РАЙОНЕ ГОР. ОРЕНБУРГА
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_by/issued_by_1758049428503_d61897c2.png	ОТДЕЛНИЕМ УФМС РОССИИ ПО КЕМЕРОВСКОЙ ОБЛАСТИ В КЕМЕРОВСКОМ РАЙОНЕ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/name/name_1758047696806_fc31267d.png	КИРИЛЛ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758049964757_3eb4b753.png	96 13 389593
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_date/birth_date_1758047885302_31232749.png	02.12.1982
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_place/birth_place_1758049930537_d29b173a.png	ГОР. КАЛИНИНГРАД
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sername/sername_1758050127600_c2b4b7eb.png	ОЛЕГОВИЧ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758051004498_d31f2ec0.png	40 11 438285
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sex/sex_1758049493152_fa4a5b58.png	МУЖ.
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/name/name_1758049982698_319cc86c.png	АНАСТАСИЯ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sex/sex_1758050589913_7c23cb86.png	МУЖ.
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_date/birth_date_1758051030417_c9d86961.png	10.03.1971
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758047734087_413a5f59.png	15 08 560992
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sex/sex_1758050103231_f637c3ef.png	МУЖ.
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_code/issued_code_1758049720611_5300d00e.png	570-030
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758047794043_745afc6e.png	27 15 575190
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_date/birth_date_1758049125945_46887aa9.png	02.09.1966
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_by/issued_by_1758049691010_d299e66c.png	65 ОТДЕЛЕНИЕМ МИЛИЦИИ ОВД ГОЛЬЯНОВО ГОР. МОСКВЫ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issue_date/issue_date_1758049549307_cd101ca5.png	21.12.2011
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sername/sername_1758047342218_431068bf.png	ВЛАДИМИРОВНА
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_by/issued_by_1758049558671_3db0b020.png	СОВЕТСКИМ РОВД ГОР. АСТРАХАНИ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_by/issued_by_1758050781833_8eb5adcf.png	ОТДЕЛОМ УФМС РОССИИ ПО ГОР МОСКВЕ ПО РАЙОНУ МИТИНО
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_place/birth_place_1758049921422_4f1dba45.png	ПОС. ЗАЙЦЕВО ВЫБОРГСКОГО Р-НА ЛЕНИНГРАДСКОЙ ОБЛ.
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_code/issued_code_1758048711174_d43302e2.png	520-001
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sex/sex_1758048319502_a554a68a.png	МУЖ.
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_place/birth_place_1758048926130_e561e645.png	ГОР. ПСКОВ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issue_date/issue_date_1758049720383_50eab0aa.png	14.02.2013
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_code/issued_code_1758049512057_0a17e2d1.png	029-030
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sex/sex_1758048336629_0a0f186e.png	МУЖ.
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_code/issued_code_1758047772088_3500fd81.png	540-006
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sex/sex_1758049502197_80fee1f0.png	МУЖ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758050102594_a2fc7408.png	45 10 915316
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sername/sername_1758048710607_9bcb7e14.png	шилов
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758050858260_c59d003a.png	50 09 563005
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_code/issued_code_1758049110767_222dda8b.png	015-019
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/name/name_1758050944541_74718660.png	ЛЮДМИЛА
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/name/name_1758049357270_781875e1.png	КИРИЛЛ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/fam/fam_1758050617115_dce4a8c5.png	АЛАХЕЕВ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/name/name_1758050234858_926ad63d.png	СЕМЕН
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_code/issued_code_1758047306370_93e71bab.png	240-003
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_date/birth_date_1758049807383_6db57d81.png	17.08.1986
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_place/birth_place_1758047477443_7e8657f1.png	ГОР. МОСКВА
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sername/sername_1758050346466_5c8c72d1.png	ИВАНОВНА
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sername/sername_1758049661521_bb15fdc1.png	РАВИЛЬЕВИЧ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issue_date/issue_date_1758051030869_94f75201.png	01.04.2016
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758048530702_841315bb.png	65 05 240316
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758049348175_630af78f.png	27 10 345346
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_date/birth_date_1758049635353_6f9242e2.png	08.05.1984
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758048732011_9707af18.png	03 10 181237
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sex/sex_1758049358196_cf69191c.png	МУЖ.
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sername/sername_1758048504125_7abd5146.png	ГЕННАДЬЕВИЧ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_code/issued_code_1758049922047_961703da.png	470-015
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issue_date/issue_date_1758049465834_410e4ad2.png	30.12.2005
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_date/birth_date_1758050884409_851b8414.png	29.08.2000
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_by/issued_by_1758049315252_baa87e03.png	ОТДЕЛЕНИЕМ УФМС РОССИИ ПО ВОЛГОГРАДСКОЙО БЛАСТИ В ПАЛЛАСОВСКОМ РАЙОНЕВСКОМРАЙОН
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/fam/fam_1758050136514_405f73c6.png	БАРБУНОВ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_by/issued_by_1758049413918_d00d7475.png	ОТДЕЛЕНИЕМ УФМС РОССИИ ПО СаМАРСКОЙ ОБЛАСТИ 8 КУЙБЫШЕВСКОМ РАЙОНЕ ГОР. САМАРЫ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_by/issued_by_1758049886196_95bf5ace.png	ОТДЕЛЕНИЕ УФМС РОССИИ ПО ЧЕЧЕНСКОЙ РЕСПУБЛИКЕ В ЛЕНИНСКОМ Р-НЕ г. ГРОЗНОГО
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sername/sername_1758049440010_2ecffd41.png	НИКОЛАЕВИЧ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_date/birth_date_1758048102672_5475e931.png	25.01.1975
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issue_date/issue_date_1758049126631_a90ec641.png	16.12.2011
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_code/issued_code_1758049904423_b004c4c6.png	860-003
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_date/birth_date_1758049884902_d3f0ea33.png	13.08.1999
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_code/issued_code_1758049820066_651f2aab.png	462-015
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_place/birth_place_1758048790280_2a6b39d2.png	С БОГДАНОВКА СТЕПНОВСКОГО Р-НА СТАВРОПОЛЬСКОГО КРАЯ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issue_date/issue_date_1758050171291_5aed58d3.png	04.06.2009
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_code/issued_code_1758050314492_706fc70c.png	480-003
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sername/sername_1758048070514_e203cbbf.png	АСТРАХАНЪ
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/birth_date/birth_date_1758049964849_096162ef.png	23.12.1993
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sex/sex_1758049797458_884b188b.png	МУЖ.
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sex/sex_1758050833403_e97a523a.png	ЖЕН.
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758047631575_de5cea56.png	46 08 081652
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/series_number/series_number_1758047648247_2f60c337.png	34 03 567821
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/name/name_1758050961851_49125317.png	ТАТЬЯНА
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/sex/sex_1758047874392_82fe6a2d.png	МУЖ.
+/media/alex/6011659d-0cd0-4325-8e75-ac1515aeeb591/Projects/personal_files/PassportOCR/tesseract/final_version/dataset_for_easyocr/issued_by/issued_by_1758050771873_a618c270.png	ОТДЕЛОМ УФМС РОССИИ ПО ГОР МОСКВЕ ПО РАЙОНУ МИТИНО
